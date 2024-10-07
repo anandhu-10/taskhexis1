@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Membership Registration</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Membership Registration</h2>
+        <form id="registrationForm" class="form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="John Doe">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="example@mail.com">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="+1 (555) 555-5555">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="gender" id="gender">Gender</label>
+            
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">male</label><br>
+            
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">female</label><br><br>
+
+            <label for="nationality">Nationality</label>
+            <input type="text" id="nationality" name="nationality" placeholder="enter ur nationality"><br><br>
+
+            <label for="current-status"  id="current-status">what is your current-status</label>
+            <input type="radio" id="study" name="status" value="study" required>
+            <label for="study">study</label>
+            <input type="radio" id="work" name="status" value="work" required>
+            <label for="work">work</label>
+            <input type="radio" id="other" name="status" value="other" required>
+            <label for="other">other</label>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="#">terms and conditions</a>.</label>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
+    
